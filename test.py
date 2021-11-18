@@ -11,6 +11,7 @@ def test_multiply():
 
 def test_divide():
     assert divide_nums(10, 2) == 5
+    assert divide_nums(10, 0) == "На ноль делить нельзя!"
 
 
 test_sums()
